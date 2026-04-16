@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mira | Web Developer</title>
+  <title>Coffee Shop</title>
   <style>
     body {
-      font-family: Arial;
       margin: 0;
-      background-color: #f4f4f4;
+      font-family: Arial;
+      background-color: #f8f8f8;
     }
 
     header {
-      background: black;
+      background: #3e2723;
       color: white;
       padding: 20px;
       text-align: center;
+    }
+
+    nav {
+      background: #5d4037;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+      font-weight: bold;
     }
 
     section {
@@ -21,22 +34,20 @@
       text-align: center;
     }
 
-    .box {
+    .menu-item {
       background: white;
-      padding: 20px;
-      margin: 20px auto;
-      width: 300px;
+      margin: 10px auto;
+      padding: 15px;
+      width: 250px;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
-    button {
-      padding: 10px 20px;
-      border: none;
-      background: black;
+    footer {
+      background: #3e2723;
       color: white;
-      cursor: pointer;
-      border-radius: 5px;
+      text-align: center;
+      padding: 10px;
     }
   </style>
 </head>
@@ -44,36 +55,52 @@
 <body>
 
 <header>
-  <h1>Mira Atef</h1>
-  <p>Web Developer</p>
+  <h1>Golden Coffee ☕</h1>
+  <p>Fresh Coffee Everyday</p>
 </header>
 
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Menu</a>
+  <a href="#">Contact</a>
+</nav>
+
 <section>
-  <h2>About Me</h2>
-  <div class="box">
-    <p>I build clean and responsive websites using HTML and CSS. I focus on simple, modern designs that help businesses look professional online.</p>
-  </div>
+  <h2>Welcome</h2>
+  <p>We serve the best coffee in town with a cozy atmosphere.</p>
 </section>
 
 <section>
-  <h2>My Skills</h2>
-  <div class="box">
-    <p>✔ HTML</p>
-    <p>✔ CSS</p>
-    <p>✔ Basic JavaScript</p>
+  <h2>Our Menu</h2>
+
+  <div class="menu-item">
+    <h3>Espresso</h3>
+    <p>Strong and bold coffee</p>
   </div>
+
+  <div class="menu-item">
+    <h3>Cappuccino</h3>
+    <p>With creamy milk foam</p>
+  </div>
+
+  <div class="menu-item">
+    <h3>Iced Latte</h3>
+    <p>Cold and refreshing</p>
+  </div>
+
 </section>
 
 <section>
-  <h2>Contact Me</h2>
-  <div class="box">
-    <p>Ready to build your website!</p>
-    <button>Hire Me</button>
-  </div>
+  <h2>Contact Us</h2>
+  <p>📍 Cairo, Egypt</p>
+  <p>📞 01000000000</p>
 </section>
+
+<footer>
+  <p>© 2026 Golden Coffee</p>
+</footer>
 
 </body>
 </html>
-     
 
 
